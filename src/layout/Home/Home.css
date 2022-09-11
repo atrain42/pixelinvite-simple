@@ -1,0 +1,184 @@
+.header {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.home {
+  background-color: #fafafa;
+}
+
+.header img {
+  height: 50px;
+  width: auto;
+  margin-bottom: 100px;
+}
+
+.header span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header span h1 {
+  font-size: 14px;
+}
+
+.linebreak {
+  width: 70vw;
+  height: 1px;
+  border-bottom: 1px solid var(--text-black);
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about img {
+  height: 550px;
+  width: auto;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  margin-right: 150px;
+}
+
+.about-text {
+  margin-left: 150px;
+}
+
+.about-text h1 {
+  margin-bottom: 40px;
+}
+
+.about-text h3 img {
+  height: 50px;
+  width: 50px;
+}
+
+.about-text p {
+  width: 450px;
+  font-size: 19px;
+  border-top: 1px solid #bababa;
+  padding-top: 20px;
+}
+
+.img-container {
+  position: relative;
+  height: 550px;
+  width: 350px;
+  background-color: #e0e0e0;
+}
+
+#note {
+  margin-top: 60px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 25px;
+}
+
+.message p {
+  font-size: clamp(33px, 8vw, 50px);
+  /* font-size: 50px; */
+  width: 650px;
+  text-align: center;
+}
+
+.location {
+  margin-bottom: 100px;
+}
+
+.location p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.message span {
+  display: flex;
+  align-items: center;
+}
+
+.message button {
+  background-color: transparent;
+  border: 1px solid var(--text-black);
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .about-text p {
+    width: 37.5vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about img {
+    height: 450px;
+    width: auto;
+    margin-right: 150px;
+  }
+  .img-container {
+    height: 450px;
+    width: 350px;
+  }
+
+  .about-text p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 875px) {
+  .about {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .message p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 775px) {
+  .about {
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .about img {
+    margin-right: 0px;
+    margin-bottom: 75px;
+  }
+
+  .about-text {
+    margin-left: 0px;
+    margin-top: 75px;
+  }
+
+  .about-text p {
+    width: 100%;
+  }
+
+  .img-container {
+    height: 450px;
+    width: 300px;
+    background-color: #e0e0e0;
+  }
+}

@@ -1,0 +1,52 @@
+.registry {
+  background-color: #fafafa;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.registry-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registry-text h1 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.registry-text p {
+  font-size: 22px;
+}
+
+.registry-text img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 40px;
+}
+
+.registry-quote {
+  font-size: 35px;
+  width: 725px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.registry-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registry-content button {
+  background-color: transparent;
+  border: 1px solid var(--text-black);
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 20px;
+  position: relative;
+}

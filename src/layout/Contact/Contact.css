@@ -1,0 +1,63 @@
+.contact {
+  background-color: #fafafa;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.contact-text h1 {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.contact-text p {
+  font-size: 17px;
+}
+
+.contact-text img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--text-black);
+  width: 50vw;
+  padding: 10px 0;
+  margin-bottom: 25px;
+}
+
+::placeholder {
+  font-size: 19px;
+  color: black;
+}
+
+.radio-btn {
+  width: 20px;
+  margin-right: 15px;
+}
+
+#rea {
+  margin-bottom: 20px;
+}
+
+textarea {
+  padding: 10px 10px;
+}
