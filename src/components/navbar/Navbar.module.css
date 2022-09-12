@@ -1,0 +1,159 @@
+.nav {
+  z-index: 100;
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+}
+
+.navOverhang {
+  /* padding: 0rem 5px; */
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+.navOverhang a {
+  text-decoration: none;
+}
+
+.navButtons {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .nav a {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+} */
+
+.navButtons button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+.homeButton {
+  display: flex;
+  align-items: center;
+}
+
+.nav .mobileNavigation {
+  display: none;
+}
+
+.navLinks {
+  display: flex;
+  z-index: 5500;
+  position: relative;
+  width: 100%;
+}
+.nav .Navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks p {
+  cursor: pointer;
+}
+
+.navLinks li {
+  list-style: none;
+  cursor: pointer;
+  font-family: "Lora", sans-serif;
+  color: var(--text-black);
+  font-size: 17px;
+}
+
+.navLinks h1 {
+  font-size: 12.5px;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.site {
+  color: var(--text-black);
+  border-bottom: 1px solid var(--text-black);
+}
+
+.homeButton a {
+  text-decoration: none;
+  color: var(--text-black);
+  font-family: "Lora", sans-serif;
+  font-size: 19px;
+}
+
+.homeButton img {
+  margin-right: 15px;
+}
+@media (max-width: 990px) {
+  .nav .Navigation {
+    display: none;
+  }
+
+  .nav .mobileNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav .mobileNavigation .Hamburger {
+    position: fixed;
+    right: 2%;
+    cursor: pointer;
+    z-index: 8;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    min-height: 100vh;
+    width: 30rem;
+    background-color: #eefdff;
+    z-index: 6;
+    padding-top: 10rem;
+    padding-left: 0;
+    border-left: 1px solid #16181a;
+  }
+
+  .nav ul li {
+    font-family: "Lora", sans-serif;
+    color: var(--text-black);
+    font-size: 27.5px;
+    z-index: 6;
+    transition: all 0.25s;
+  }
+
+  .nav ul li:hover {
+    color: black;
+  }
+}
+
+@media (max-width: 600px) {
+  .homeButton a {
+    font-size: 15px;
+  }
+
+  .homeButton img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .homeButton h1 {
+    font-size: 1.25rem;
+  }
+
+  .nav ul {
+    width: 100%;
+  }
+}

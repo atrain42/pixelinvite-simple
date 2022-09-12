@@ -1,11 +1,10 @@
 .registry {
-  background-color: #fafafa;
-  padding-top: 50px;
+  background-color: #eefdff;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
+  padding: 50px 25px;
 }
 
 .registry-text {
@@ -31,9 +30,11 @@
 
 .registry-quote {
   font-size: 35px;
-  width: 725px;
+  /* width: 725px; */
   text-align: center;
   margin-top: 150px;
+  font-size: clamp(21px, 5vw, 35px);
+  width: 650px;
 }
 
 .registry-content {
@@ -49,4 +50,16 @@
   margin-top: 50px;
   padding: 10px 20px;
   position: relative;
+}
+
+@media (max-width: 850px) {
+  .registry-quote {
+    width: 100%;
+  }
+}
+
+@media (max-width: 465px) {
+  .registry-text p {
+    font-size: 15px;
+  }
 }

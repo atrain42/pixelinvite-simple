@@ -59,6 +59,7 @@ const Contact = () => {
             rows="15"
             placeholder="Message"
           ></textarea>
+          <button>submit</button>
         </form>
       </section>
     </motion.div>

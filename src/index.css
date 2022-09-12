@@ -20,6 +20,10 @@ html {
   --text-black: #404040;
 }
 
+.active {
+  border-bottom: 1px solid var(--text-black);
+}
+
 @media (max-width: 750px) {
   body {
     padding: 0 25px;

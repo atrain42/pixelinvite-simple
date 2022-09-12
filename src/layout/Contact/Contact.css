@@ -1,5 +1,5 @@
 .contact {
-  background-color: #fafafa;
+  background-color: #eefdff;
   padding-top: 50px;
   width: 100%;
   display: flex;
@@ -33,6 +33,17 @@
 form {
   display: flex;
   flex-direction: column;
+  /* width: 100%; */
+}
+
+form button {
+  margin: 0 auto;
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid var(--text-black);
+  margin-top: 50px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 form input {
@@ -60,4 +71,20 @@ form input {
 
 textarea {
   padding: 10px 10px;
+}
+
+@media (max-width: 950px) {
+  form {
+    padding: 0 75px;
+    width: 100%;
+  }
+  form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  form {
+    padding: 0 25px;
+  }
 }
