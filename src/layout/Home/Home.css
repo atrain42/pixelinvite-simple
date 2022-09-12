@@ -115,6 +115,7 @@
   margin-top: 50px;
   padding: 10px 20px;
   position: relative;
+  color: var(--text-black);
 }
 
 @media (max-width: 1200px) {
