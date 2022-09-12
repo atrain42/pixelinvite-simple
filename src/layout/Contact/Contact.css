@@ -44,6 +44,7 @@ form button {
   margin-top: 50px;
   font-size: 17px;
   cursor: pointer;
+  color: var(--text-black);
 }
 
 form input {

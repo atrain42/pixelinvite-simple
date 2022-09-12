@@ -184,3 +184,21 @@
     background-color: #e0e0e0;
   }
 }
+
+@media (max-width: 550px) {
+  .about img {
+    height: 550px;
+    width: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 0;
+  }
+
+  .img-container {
+    position: relative;
+    height: 550px;
+    width: auto;
+    background-color: #cddae3;
+  }
+}
