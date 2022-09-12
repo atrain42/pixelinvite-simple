@@ -202,3 +202,17 @@
     background-color: #cddae3;
   }
 }
+
+@media (max-width: 500px) {
+  .about {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .about img {
+    height: 400px;
+  }
+
+  .img-container {
+    height: 400px;
+  }
+}
