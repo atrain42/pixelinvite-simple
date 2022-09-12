@@ -34,6 +34,9 @@ const Footer = () => {
           </p>
         </span>
       </div>
+      <h3 id="site">
+        Made at <a href="https://www.pixelinvite.com/">PixelInvite.com</a>
+      </h3>
     </footer>
   );
 };

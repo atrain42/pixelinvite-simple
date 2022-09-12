@@ -17,8 +17,17 @@
   align-items: center;
 }
 
-.footer-text p {
-  /* margin-bottom: 10px; */
+#site {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12.5px;
+  font-family: "Lora", sans-serif;
+}
+
+#site a {
+  color: black;
 }
 
 #heart {
