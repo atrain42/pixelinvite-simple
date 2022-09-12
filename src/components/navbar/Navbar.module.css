@@ -43,6 +43,8 @@
 }
 
 .nav .mobileNavigation {
+  position: fixed;
+  right: 5%;
   display: none;
 }
 
