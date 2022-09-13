@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import FormLoader from "../../components/FormLoader/FormLoader";
+import React from "react";
+// import FormLoader from "../../components/FormLoader/FormLoader";
 import { motion } from "framer-motion";
 import rsvp from "../../img/rsvp.png";
 import "./Contact.css";
 
-const Contact = () => {
-  const [formLoading, setFormLoading] = useState(false);
+const Contact = ({ setFormLoader }) => {
+  // const [formLoading, setFormLoading] = useState(false);
 
   const handleSubmission = () => {
-    setFormLoading(true);
+    setFormLoader(true);
   };
 
   return (
@@ -19,7 +19,6 @@ const Contact = () => {
       transition={{ duration: 1 }}
     >
       <section className="contact">
-        {formLoading && <FormLoader />}
         <div className="contact-text">
           <img src={rsvp} alt="baby" />
           <h1>RSVP</h1>
