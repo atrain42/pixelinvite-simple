@@ -55,7 +55,6 @@ const Contact = () => {
               type="radio"
               name="Are&nbsp;you&nbsp;attending"
               value="Yes"
-              required
               className="radio-btn"
             />
             <label htmlFor="I'm coming" c>
@@ -67,7 +66,6 @@ const Contact = () => {
               type="radio"
               name="Are&nbsp;you&nbsp;attending *"
               value="No"
-              required
               className="radio-btn"
             />
             <label htmlFor="I cant't make it">Decline with regret</label>
