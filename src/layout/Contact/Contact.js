@@ -18,8 +18,8 @@ const Contact = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}
     >
-      {formLoading && <FormLoader />}
       <section className="contact">
+        {formLoading && <FormLoader />}
         <div className="contact-text">
           <img src={rsvp} alt="baby" />
           <h1>RSVP</h1>

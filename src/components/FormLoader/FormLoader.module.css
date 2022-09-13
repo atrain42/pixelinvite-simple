@@ -5,7 +5,7 @@
   padding-top: 0;
   position: fixed;
   z-index: 500;
-  background-color: rgba(84, 84, 84, 0.444);
+  background-color: rgba(84, 84, 84, 0.096);
 }
 
 .ldsRing {
@@ -25,10 +25,10 @@
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: 8px solid #fff;
+  border: 8px solid rgb(55, 55, 55);
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fff transparent transparent transparent;
+  border-color: rgb(72, 70, 70) transparent transparent transparent;
 }
 .ldsRing div:nth-child(1) {
   animation-delay: -0.45s;
