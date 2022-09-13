@@ -44,7 +44,7 @@ const Contact = ({ setFormLoader }) => {
           />
           <input
             type="text"
-            name="First&nbsp;Name"
+            name="Last&nbsp;Name"
             placeholder="Last Name *"
             required
           />
