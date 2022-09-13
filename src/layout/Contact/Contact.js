@@ -55,20 +55,24 @@ const Contact = () => {
               type="radio"
               name="Are&nbsp;you&nbsp;attending"
               value="Yes"
+              id="yes"
               className="radio-btn"
             />
-            <label htmlFor="I'm coming" c>
+            <label htmlFor="I'm coming" for="yes">
               Accept with pleasure
             </label>
           </span>
           <span>
             <input
               type="radio"
-              name="Are&nbsp;you&nbsp;attending *"
+              name="Are&nbsp;you&nbsp;attending"
               value="No"
+              id="no"
               className="radio-btn"
             />
-            <label htmlFor="I cant't make it">Decline with regret</label>
+            <label htmlFor="I cant't make it" for="no">
+              Decline with regret
+            </label>
           </span>
           <textarea
             name=""
