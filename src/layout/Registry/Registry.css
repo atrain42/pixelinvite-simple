@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.registry-content button {
+.registry-content a {
   background-color: transparent;
   border: 1px solid var(--text-black);
   margin: 0 auto;
@@ -51,6 +51,7 @@
   padding: 10px 20px;
   position: relative;
   color: var(--text-black);
+  text-decoration: none;
 }
 
 @media (max-width: 850px) {

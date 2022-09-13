@@ -24,7 +24,7 @@ const Registry = () => {
             wonderment growing inside me was the only chance in life to assist
             God in a miracle.”
           </p>
-          <button>VIEW REGISTRY</button>
+          <a href="https://www.amazon.com/baby-reg/homepage">VIEW REGISTRY</a>
         </div>
       </section>
     </motion.div>

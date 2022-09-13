@@ -116,6 +116,7 @@
   padding: 10px 20px;
   position: relative;
   color: var(--text-black);
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {

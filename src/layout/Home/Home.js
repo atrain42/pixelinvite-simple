@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import "./Home.css";
 import bear from "../../img/teddy-bear.png";
@@ -64,15 +65,17 @@ const Home = () => {
             the arrival of their beautiful baby boy.
           </p>
 
-          <button
-            style={{
-              transform: qInView ? "none" : "translateY(50px)",
-              opacity: qInView ? 1 : 0,
-              transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1.5s",
-            }}
-          >
-            SEE REGISTRY
-          </button>
+          <Link to="/registry">
+            <button
+              style={{
+                transform: qInView ? "none" : "translateY(50px)",
+                opacity: qInView ? 1 : 0,
+                transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+              }}
+            >
+              SEE REGISTRY
+            </button>
+          </Link>
         </section>
       </div>
     </motion.div>
